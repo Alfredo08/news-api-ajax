@@ -1,6 +1,6 @@
 
 
-const API_KEY = "c93e8a6368844be3881fa8ca2f755872";
+const API_KEY = "PLACE YOUR API KEY HERE";
 
 function fetchNews( searchTerm ){
     let url = `https://newsapi.org/v2/top-headlines?apiKey=${API_KEY}&q=${searchTerm}`;
